@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#c4170c">
-<title>Trabalho Emoções</title>
+<title>Trabalhos Emoções</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -14,7 +14,10 @@
 
 <div class="topo">
   <div class="wrap topo-inner">
-    <a class="mini-logo" href="#topo" aria-label="Ir para o início"><span>●</span> Trabalho Emoções</a>
+    <a class="mini-logo" href="#topo" aria-label="Ir para o início">
+      <span>●</span> Trabalhos Emoções
+    </a>
+
     <nav aria-label="Navegação principal">
       <a class="nav-link active" href="#topo">Início</a>
       <a class="nav-link" href="#trabalhos">Trabalhos</a>
@@ -26,17 +29,33 @@
 <header class="barra" id="topo">
   <div class="hero-orb orb-one"></div>
   <div class="hero-orb orb-two"></div>
+
   <div class="wrap hero">
     <div class="hero-copy">
-      <span class="eyebrow"><span class="pulse"></span> Projeto escolar · Saúde mental</span>
-      <h1>Trabalho<br><strong>Emoções</strong></h1>
-      <p>Um espaço para conhecer, compreender e conversar sobre as emoções que fazem parte da nossa vida.</p>
-      <a class="hero-cta" href="#trabalhos">Explorar trabalhos <span>↓</span></a>
+      <span class="eyebrow">
+        <span class="pulse"></span>
+        Projeto escolar · Saúde mental
+      </span>
+
+      <h1>
+        Emoções<br>
+        <strong>em foco.</strong>
+      </h1>
+
+      <p>
+        Um espaço para conhecer, compreender e conversar sobre as emoções que fazem parte da nossa vida.
+      </p>
+
+      <a class="hero-cta" href="#trabalhos">
+        Explorar trabalhos <span>↓</span>
+      </a>
     </div>
+
     <div class="hero-emotion" aria-hidden="true">
       <div class="emotion-orbit orbit-a"></div>
       <div class="emotion-orbit orbit-b"></div>
       <div class="hero-face">☺</div>
+
       <span class="float-emoji e1">♡</span>
       <span class="float-emoji e2">✦</span>
       <span class="float-emoji e3">☁</span>
@@ -46,129 +65,490 @@
 
 <section class="subbar">
   <div class="wrap sub-inner">
-    <div><span class="dot"></span> Educação e bem-estar</div>
+    <div>
+      <span class="dot"></span>
+      Educação e bem-estar
+    </div>
+
     <div class="stats-mini" id="statsMini"></div>
   </div>
 </section>
 
 <main class="wrap" id="trabalhos">
+
   <section class="intro-row">
     <div>
       <span class="section-label">Nossa coleção</span>
+
       <h2>Conheça os trabalhos</h2>
-      <p>Pesquise por um trabalho, grupo, integrante ou formato.</p>
+
+      <p>
+        Pesquise por um trabalho, grupo, integrante ou formato.
+      </p>
     </div>
+
     <div class="tools-row">
-      <button class="add-work-btn" id="abrirAdicionar" type="button"><span>＋</span> Adicionar trabalho</button>
+
+      <button
+        class="add-work-btn"
+        id="abrirAdicionar"
+        type="button"
+      >
+        <span>＋</span>
+        Adicionar trabalho
+      </button>
+
       <div class="search-box">
         <span aria-hidden="true">⌕</span>
-        <input id="busca" type="search" placeholder="Buscar trabalhos..." aria-label="Buscar trabalhos">
-        <button id="limparBusca" type="button" aria-label="Limpar busca" title="Limpar busca">×</button>
+
+        <input
+          id="busca"
+          type="search"
+          placeholder="Buscar trabalhos..."
+          aria-label="Buscar trabalhos"
+        >
+
+        <button
+          id="limparBusca"
+          type="button"
+          aria-label="Limpar busca"
+          title="Limpar busca"
+        >
+          ×
+        </button>
       </div>
+
     </div>
   </section>
 
   <div id="conteudo"></div>
+
 </main>
 
 <section class="apoio-destaque" id="apoio">
+
   <div class="wrap apoio-inner">
+
     <div class="apoio-icon">♥</div>
+
     <div>
-      <span class="section-label">Cuidar também é importante</span>
-      <h2>Você não precisa passar por tudo sozinho.</h2>
-      <p>Se você ou alguém que conhece estiver passando por um momento difícil, converse com uma pessoa de confiança. No Brasil, o CVV atende 24 horas, gratuitamente, pelo telefone <strong>188</strong>.</p>
+      <span class="section-label">
+        Cuidar também é importante
+      </span>
+
+      <h2>
+        Você não precisa passar por tudo sozinho.
+      </h2>
+
+      <p>
+        Se você ou alguém que conhece estiver passando por um momento difícil,
+        converse com uma pessoa de confiança. No Brasil, o CVV atende 24 horas,
+        gratuitamente, pelo telefone <strong>188</strong>.
+      </p>
     </div>
+
   </div>
+
 </section>
 
 <footer>
+
   <div class="wrap footer-grid">
-    <div><strong>emoções em foco</strong><span>Projeto escolar sobre emoções e saúde mental.</span></div>
-    <span>Feito para aprender, compartilhar e acolher.</span>
+
+    <div>
+      <strong>Trabalhos Emoções</strong>
+      <span>
+        Projeto escolar sobre emoções e saúde mental.
+      </span>
+    </div>
+
+    <span>
+      Feito para aprender, compartilhar e acolher.
+    </span>
+
   </div>
+
 </footer>
 
-<div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+<!-- MODAL DE VISUALIZAÇÃO -->
+
+<div
+  class="modal"
+  id="modal"
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modalTitulo"
+>
+
   <div class="modal-backdrop" data-close-modal></div>
+
   <article class="modal-card">
-    <button class="modal-close" type="button" data-close-modal aria-label="Fechar">×</button>
+
+    <button
+      class="modal-close"
+      type="button"
+      data-close-modal
+      aria-label="Fechar"
+    >
+      ×
+    </button>
+
     <div class="modal-head" id="modalHead">
+
       <div class="modal-icon" id="modalIcon"></div>
-      <div><span class="kicker" id="modalKicker"></span><h2 id="modalTitulo"></h2></div>
-    </div>
-    <div class="modal-body">
-      <p id="modalDescricao"></p>
-      <div class="modal-info" id="modalInfo"></div>
-      <a class="modal-link" id="modalLink" href="#" target="_blank" rel="noopener">Abrir trabalho <span>→</span></a>
-    </div>
-  </article>
-</div>
 
-<div class="modal" id="removerModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="removerPainelTitulo">
-  <div class="modal-backdrop" data-close-remove></div>
-  <article class="modal-card remove-card">
-    <button class="modal-close" type="button" data-close-remove aria-label="Fechar">×</button>
-    <div class="remove-header">
-      <span class="remove-badge">!</span>
       <div>
-        <span class="kicker remove-kicker">Excluir trabalho</span>
-        <h2 id="removerPainelTitulo">Remover trabalho?</h2>
+        <span class="kicker" id="modalKicker"></span>
+        <h2 id="modalTitulo"></h2>
       </div>
+
     </div>
-    <div class="remove-body">
-      <div class="remove-warning"><span>!</span><div><strong>Atenção</strong><p>Você está prestes a remover este trabalho do site. Essa ação não poderá ser desfeita.</p></div></div>
-      <div class="remove-preview">
-        <span class="remove-preview-label">Trabalho selecionado</span>
-        <strong id="removerTitulo">Trabalho</strong>
-        <span id="removerAlunos">Alunos</span>
-      </div>
-      <div class="remove-actions">
-        <button class="secondary-btn" type="button" data-close-remove>Cancelar</button>
-        <button class="danger-btn" id="confirmarRemocao" type="button">Remover trabalho <span>×</span></button>
-      </div>
+
+    <div class="modal-body">
+
+      <p id="modalDescricao"></p>
+
+      <div class="modal-info" id="modalInfo"></div>
+
+      <a
+        class="modal-link"
+        id="modalLink"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        Abrir trabalho <span>→</span>
+      </a>
+
     </div>
+
   </article>
+
 </div>
 
-<div class="modal" id="adicionarModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="adicionarTitulo">
-  <div class="modal-backdrop" data-close-add></div>
-  <article class="modal-card add-card">
-    <button class="modal-close" type="button" data-close-add aria-label="Fechar">×</button>
-    <div class="add-header">
-      <span class="add-badge">＋</span>
-      <div><span class="kicker" id="formModalKicker">Novo trabalho</span><h2 id="adicionarTitulo">Adicionar trabalho</h2></div>
+<!-- MODAL DE REMOVER -->
+
+<div
+  class="modal"
+  id="removerModal"
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="removerPainelTitulo"
+>
+
+  <div class="modal-backdrop" data-close-remove></div>
+
+  <article class="modal-card remove-card">
+
+    <button
+      class="modal-close"
+      type="button"
+      data-close-remove
+      aria-label="Fechar"
+    >
+      ×
+    </button>
+
+    <div class="remove-header">
+
+      <span class="remove-badge">!</span>
+
+      <div>
+        <span class="kicker remove-kicker">
+          Excluir trabalho
+        </span>
+
+        <h2 id="removerPainelTitulo">
+          Remover trabalho?
+        </h2>
+      </div>
+
     </div>
-    <div class="form-intro" id="formIntro"><span class="form-intro-dot"></span><div><strong>Preencha os dados do trabalho</strong><small>Os campos marcados com * são obrigatórios.</small></div></div>
-    <form id="formAdicionar" class="add-form">
-      <label for="novoTitulo">Título do trabalho <span>*</span></label>
-      <input id="novoTitulo" name="titulo" type="text" maxlength="120" placeholder="Ex.: A importância da saúde mental" required>
 
-      <label for="novosAlunos">Alunos <span>*</span></label>
-      <input id="novosAlunos" name="alunos" type="text" maxlength="250" placeholder="Ex.: João, Maria e Pedro" required>
+    <div class="remove-body">
 
-      <label for="novoLink">Link do trabalho <small>(opcional)</small></label>
-      <input id="novoLink" name="link" type="url" placeholder="https://...">
-      <p class="form-help">Se o trabalho não tiver link ainda, pode deixar este campo vazio.</p>
+      <div class="remove-warning">
+
+        <span>!</span>
+
+        <div>
+          <strong>Atenção</strong>
+
+          <p>
+            Você está prestes a remover este trabalho do site.
+            Essa ação não poderá ser desfeita.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="remove-preview">
+
+        <span class="remove-preview-label">
+          Trabalho selecionado
+        </span>
+
+        <strong id="removerTitulo">
+          Trabalho
+        </strong>
+
+        <span id="removerAlunos">
+          Alunos
+        </span>
+
+      </div>
+
+      <div class="remove-actions">
+
+        <button
+          class="secondary-btn"
+          type="button"
+          data-close-remove
+        >
+          Cancelar
+        </button>
+
+        <button
+          class="danger-btn"
+          id="confirmarRemocao"
+          type="button"
+        >
+          Remover trabalho <span>×</span>
+        </button>
+
+      </div>
+
+    </div>
+
+  </article>
+
+</div>
+
+<!-- MODAL DE ADICIONAR / EDITAR -->
+
+<div
+  class="modal"
+  id="adicionarModal"
+  aria-hidden="true"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="adicionarTitulo"
+>
+
+  <div class="modal-backdrop" data-close-add></div>
+
+  <article class="modal-card add-card">
+
+    <button
+      class="modal-close"
+      type="button"
+      data-close-add
+      aria-label="Fechar"
+    >
+      ×
+    </button>
+
+    <div class="add-header">
+
+      <span class="add-badge">＋</span>
+
+      <div>
+
+        <span
+          class="kicker"
+          id="formModalKicker"
+        >
+          Novo trabalho
+        </span>
+
+        <h2 id="adicionarTitulo">
+          Adicionar trabalho
+        </h2>
+
+      </div>
+
+    </div>
+
+    <div
+      class="form-intro"
+      id="formIntro"
+    >
+
+      <span class="form-intro-dot"></span>
+
+      <div>
+        <strong>
+          Preencha os dados do trabalho
+        </strong>
+
+        <small>
+          Os campos marcados com * são obrigatórios.
+        </small>
+      </div>
+
+    </div>
+
+    <form
+      id="formAdicionar"
+      class="add-form"
+    >
+
+      <label for="novoTitulo">
+        Título do trabalho <span>*</span>
+      </label>
+
+      <input
+        id="novoTitulo"
+        name="titulo"
+        type="text"
+        maxlength="120"
+        placeholder="Ex.: A importância da saúde mental"
+        required
+      >
+
+      <label for="novosAlunos">
+        Alunos <span>*</span>
+      </label>
+
+      <input
+        id="novosAlunos"
+        name="alunos"
+        type="text"
+        maxlength="250"
+        placeholder="Ex.: João, Maria e Pedro"
+        required
+      >
+
+      <label for="novoLink">
+        Link do trabalho <small>(opcional)</small>
+      </label>
+
+      <input
+        id="novoLink"
+        name="link"
+        type="url"
+        placeholder="https://..."
+      >
+
+      <p class="form-help">
+        Se o trabalho não tiver link ainda,
+        pode deixar este campo vazio.
+      </p>
 
       <div class="add-actions">
-        <button class="secondary-btn" type="button" data-close-add>Cancelar</button>
-        <button class="primary-btn" id="submitTrabalho" type="submit">Adicionar trabalho <span>→</span></button>
+
+        <button
+          class="secondary-btn"
+          type="button"
+          data-close-add
+        >
+          Cancelar
+        </button>
+
+        <button
+          class="primary-btn"
+          id="submitTrabalho"
+          type="submit"
+        >
+          Adicionar trabalho <span>→</span>
+        </button>
+
       </div>
+
     </form>
+
   </article>
+
 </div>
 
 <script src="script.js"></script>
 
-<!-- Feedback visual -->
-<div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
-  <span class="toast-icon" id="toastIcon">✓</span>
-  <span id="toastMessage">Ação concluída com sucesso!</span>
+<!-- FEEDBACK VISUAL -->
+
+<div
+  class="toast"
+  id="toast"
+  role="status"
+  aria-live="polite"
+  aria-atomic="true"
+>
+
+  <span
+    class="toast-icon"
+    id="toastIcon"
+  >
+    ✓
+  </span>
+
+  <span id="toastMessage">
+    Ação concluída com sucesso!
+  </span>
+
 </div>
-<div class="confetti-container" id="confettiContainer" aria-hidden="true"></div>
 
+<div
+  class="confetti-container"
+  id="confettiContainer"
+  aria-hidden="true"
+></div>
 
-<section id="jogos" class="games-section"><div class="games-header"><span class="games-badge">🎮 DIVERSÃO</span><h2>Jogos</h2><p>Faça uma pausa e jogue o Dentro da Mente.</p></div><div class="game-card"><div class="game-icon">🎮</div><div class="game-info"><span class="game-label">JOGO</span><h3>Dentro da Mente</h3><p>Abra o jogo em uma nova aba e comece a jogar.</p></div><a class="game-button" href="https://emanuel124463.github.io/Dentro-da-mente/" target="_blank" rel="noopener noreferrer">Jogar agora ↗</a></div></section>
+<!-- JOGOS -->
+
+<section
+  id="jogos"
+  class="games-section"
+>
+
+  <div class="games-header">
+
+    <span class="games-badge">
+      🎮 DIVERSÃO
+    </span>
+
+    <h2>Jogos</h2>
+
+    <p>
+      Faça uma pausa e jogue o Dentro da Mente.
+    </p>
+
+  </div>
+
+  <div class="game-card">
+
+    <div class="game-icon">
+      🎮
+    </div>
+
+    <div class="game-info">
+
+      <span class="game-label">
+        JOGO
+      </span>
+
+      <h3>
+        Dentro da Mente
+      </h3>
+
+      <p>
+        Abra o jogo em uma nova aba e comece a jogar.
+      </p>
+
+    </div>
+
+    <a
+      class="game-button"
+      href="https://emanuel124463.github.io/Dentro-da-mente/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Jogar agora ↗
+    </a>
+
+  </div>
+
+</section>
+
 </body>
 </html>
